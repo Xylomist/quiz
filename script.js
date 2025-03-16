@@ -13,9 +13,9 @@ let questioncount=0;
 let timer=5;
 let players=JSON.parse(localStorage.getItem("player"))!==null?JSON.parse(localStorage.getItem("player")):[];
 let score=0;
-window.addEventListener("load",()=>{
-    localStorage.clear();
-})
+// window.addEventListener("load",()=>{
+//     localStorage.clear();
+// })
 //as page is getting refreshed it is creating a new array
 btn.addEventListener("click",startquiz)
 function startquiz(){
